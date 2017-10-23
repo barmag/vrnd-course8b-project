@@ -14,7 +14,6 @@ public class BallReset : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Triggered");
         if (other.CompareTag("Ground"))
         {
             gameObject.SetActive(false);
