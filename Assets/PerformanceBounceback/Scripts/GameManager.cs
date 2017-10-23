@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
 
     private int score;
     public Score scoreManager;
+    public Score scoreManager1;
 
     public int Score
     {
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour {
             if (scoreManager != null)
             {
                 scoreManager.UpdateScore();
+                scoreManager1.UpdateScore();
             }
         }
     }
